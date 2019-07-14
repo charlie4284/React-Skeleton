@@ -1,6 +1,6 @@
-# React Skeleton for Dayta
+# React Skeleton by YangSoo Yoon
 
-Skeleton Package for React/Redux Applications Developed by Dayta AI
+Skeleton Package for React/Redux Applications
 
 ## Getting Started
 
