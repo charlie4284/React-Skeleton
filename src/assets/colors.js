@@ -1,10 +1,4 @@
 const colors = {
-  dayta: {
-    violet: '#606fe7',
-    gray: '#ebebeb',
-    navy: '#34495e',
-    orange: '#f97f59'
-  },
   twitter: {
     black: '#14171a',
     gray: '#aab8c2',

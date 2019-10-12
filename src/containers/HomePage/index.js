@@ -13,7 +13,6 @@ export default function HomePage() {
   ]);
 
   useEffect(() => {
-    console.log('component did mount / component did update');
     const numberStateTimeInterval = setInterval(
       () => setNumberState(numberState => numberState + 1),
       1000
@@ -31,7 +30,6 @@ export default function HomePage() {
     );
     // Same purpose as ComponentWillUnmout
     return () => {
-      console.log('Component will unmount');
       clearInterval(numberStateTimeInterval);
       clearInterval(stringStateTimeInterval);
       clearInterval(arrayStateTimeInterval);
